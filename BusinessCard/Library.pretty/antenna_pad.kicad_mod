@@ -4,10 +4,10 @@
 	(generator_version "10.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at 0 -0.5 0)
+		(at 0 -1.1 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "5851f4d2-a8a8-436c-8c63-bbbba9d80547")
+		(uuid "8d8a39ed-7920-40dd-9a6c-f8b4898a1339")
 		(effects
 			(font
 				(size 1 1)
@@ -19,7 +19,7 @@
 		(at 0 1 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "db32580b-d6f5-4946-b9c0-a9466e28cb1c")
+		(uuid "8b1e71e7-4c84-46cc-9631-4768513b58c0")
 		(effects
 			(font
 				(size 1 1)
@@ -32,7 +32,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "cdac64c4-d643-4178-af66-22b53aa33551")
+		(uuid "4052b1a6-5a60-4672-b716-a92ecc80b719")
 		(effects
 			(font
 				(size 1 1)
@@ -45,7 +45,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "1ced75f8-f981-4e76-9c24-6161c2508077")
+		(uuid "e01c76d7-bc3c-47ca-b5a9-f22b4e06ab34")
 		(effects
 			(font
 				(size 1 1)
@@ -55,28 +55,34 @@
 	)
 	(attr smd)
 	(duplicate_pad_numbers_are_jumpers no)
-	(fp_rect
-		(start -0.1 -0.1)
-		(end 0.1 0)
-		(stroke
-			(width 0.2)
-			(type default)
-		)
-		(fill no)
-		(layer "F.Cu")
-		(uuid "2fb361f1-1087-4b80-b242-362eade4b385")
-	)
 	(fp_text user "${REFERENCE}"
 		(at 0 2.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "c5b936e3-5056-48b1-afde-47f5b9904454")
+		(uuid "5be0af6c-2bde-4c51-8ab9-5fae0907fbe1")
 		(effects
 			(font
 				(size 1 1)
 				(thickness 0.15)
 			)
 		)
+	)
+	(pad "1" thru_hole circle
+		(at 0.5 -0.3 90)
+		(size 0.6 0.6)
+		(drill 0.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "9c64dcbd-8dc6-458c-b0b2-9c9f1356edb1")
+	)
+	(pad "2" thru_hole roundrect
+		(at -0.4 -0.3 90)
+		(size 0.5 0.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.15)
+		(uuid "2f5a2df8-191a-4621-b408-300ad08ff126")
 	)
 	(embedded_fonts no)
 )

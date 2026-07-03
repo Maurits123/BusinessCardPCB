@@ -414,6 +414,146 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "RF_NFC:ST25DV04K-IER8C3"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -790,6 +930,30 @@
 		)
 	)
 	(junction
+		(at 64.77 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0aeafe72-c7de-4fb4-8f95-92dc7967a37b")
+	)
+	(junction
+		(at 59.69 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1ebb49ef-b651-4e6e-a24c-05a610d19b60")
+	)
+	(junction
+		(at 64.77 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7a88de62-b3dd-4b86-88e4-3326923880fb")
+	)
+	(junction
+		(at 59.69 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9989814f-250e-4bb3-92fb-1ed941b28615")
+	)
+	(junction
 		(at 68.58 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -813,26 +977,6 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 100.33) (xy 71.12 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1290b870-9b15-4e56-ad09-36dcd521d5c8")
-	)
-	(wire
-		(pts
-			(xy 57.15 97.79) (xy 62.23 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "212e6b6b-d78e-475e-9b0c-c94543540fcc")
-	)
-	(wire
-		(pts
 			(xy 68.58 82.55) (xy 68.58 83.82)
 		)
 		(stroke
@@ -843,13 +987,43 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 97.79) (xy 71.12 86.36)
+			(xy 66.04 93.98) (xy 66.04 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "626f6e80-3cba-4dbf-a286-c7a83331173f")
+		(uuid "2ad4f991-254b-4b4d-8561-85b77e9d1e2a")
+	)
+	(wire
+		(pts
+			(xy 57.15 93.98) (xy 52.07 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "651b4270-9c0d-4626-a232-2e6325b71401")
+	)
+	(wire
+		(pts
+			(xy 71.12 88.9) (xy 68.58 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "696df75a-7fa8-4f46-87d2-9b6efc2fb3d2")
+	)
+	(wire
+		(pts
+			(xy 52.07 99.06) (xy 49.53 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "775c9c95-971c-4819-bd9d-1abc34f8e010")
 	)
 	(wire
 		(pts
@@ -863,16 +1037,6 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 100.33) (xy 62.23 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "933758ff-3c0e-4bef-a2ab-bd4693d29c24")
-	)
-	(wire
-		(pts
 			(xy 66.04 83.82) (xy 68.58 83.82)
 		)
 		(stroke
@@ -880,6 +1044,16 @@
 			(type default)
 		)
 		(uuid "93eb6124-f948-4428-94a2-126d8eef4a43")
+	)
+	(wire
+		(pts
+			(xy 59.69 93.98) (xy 64.77 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "986fdd77-0f55-4455-8593-60705d113f75")
 	)
 	(wire
 		(pts
@@ -903,6 +1077,16 @@
 	)
 	(wire
 		(pts
+			(xy 66.04 86.36) (xy 71.12 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba93ff12-3b05-4537-8bac-3337cbcdb57c")
+	)
+	(wire
+		(pts
 			(xy 55.88 83.82) (xy 58.42 83.82)
 		)
 		(stroke
@@ -910,6 +1094,66 @@
 			(type default)
 		)
 		(uuid "c5d4acab-8831-4e8c-9f49-41320d2df1b6")
+	)
+	(wire
+		(pts
+			(xy 59.69 101.6) (xy 64.77 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c61cc3dc-a418-4e75-811d-6c1df6ee4a89")
+	)
+	(wire
+		(pts
+			(xy 64.77 101.6) (xy 68.58 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce1355b4-9e3a-4536-abb3-e4e4f491b00a")
+	)
+	(wire
+		(pts
+			(xy 49.53 101.6) (xy 59.69 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e10035f8-a79b-4147-ae0e-de6849081d28")
+	)
+	(wire
+		(pts
+			(xy 68.58 88.9) (xy 68.58 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3206af2-5855-4dc4-bcb5-c662e2b896d8")
+	)
+	(wire
+		(pts
+			(xy 57.15 93.98) (xy 59.69 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e681453e-ef9b-4470-b3f6-b94b590bab47")
+	)
+	(wire
+		(pts
+			(xy 66.04 93.98) (xy 64.77 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f86a7d15-f87d-495f-a2cd-393723afcc4b")
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
@@ -1022,7 +1266,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 66.04 82.8548 0)
 			(hide yes)
 			(show_name no)
@@ -1093,7 +1337,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 51.054 89.154 0)
+			(at 55.626 89.916 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1142,6 +1386,87 @@
 			(project "BusinessCard"
 				(path "/1d6d1880-0108-4382-84a7-a6c0860e944c"
 					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 59.69 97.79 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "85abcf3a-31a5-40ba-9e8f-da4e06932a09")
+		(property "Reference" "R1"
+			(at 57.912 103.886 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0"
+			(at 58.42 106.426 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 57.912 97.79 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 59.69 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 59.69 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9901d087-b76c-4989-9584-a99f599b5e8f")
+		)
+		(pin "2"
+			(uuid "ab51c580-cf3a-4f8f-aef7-b4ecd852ac1b")
+		)
+		(instances
+			(project "BusinessCard"
+				(path "/1d6d1880-0108-4382-84a7-a6c0860e944c"
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -1226,8 +1551,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Antenna_Loop")
-		(at 52.07 100.33 90)
+		(lib_id "Device:C")
+		(at 64.77 97.79 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1235,29 +1560,31 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "f546ab82-74f7-4526-9196-c2ea56924f10")
-		(property "Reference" "AE1"
-			(at 52.07 104.902 90)
+		(uuid "dcc3f18e-a475-48b1-8fa7-dd9ee065a62e")
+		(property "Reference" "C1"
+			(at 64.008 106.934 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "Antenna_Loop"
-			(at 52.07 92.71 90)
+		(property "Value" "18pF"
+			(at 62.992 104.14 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Library:antenna_pad"
-			(at 52.07 100.33 0)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 65.7352 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1268,7 +1595,86 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 52.07 100.33 0)
+			(at 64.77 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 64.77 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0421910a-e7e5-4c21-a988-683140f4b7a2")
+		)
+		(pin "2"
+			(uuid "1c3520ff-212a-4576-a72e-ed9c14d07425")
+		)
+		(instances
+			(project "BusinessCard"
+				(path "/1d6d1880-0108-4382-84a7-a6c0860e944c"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Antenna_Loop")
+		(at 44.45 101.6 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f546ab82-74f7-4526-9196-c2ea56924f10")
+		(property "Reference" "AE1"
+			(at 44.196 107.95 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Antenna_Loop"
+			(at 44.196 105.41 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Library:antenna_pad"
+			(at 44.45 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 44.45 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1279,7 +1685,7 @@
 			)
 		)
 		(property "Description" "Loop antenna"
-			(at 52.07 100.33 0)
+			(at 44.45 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
